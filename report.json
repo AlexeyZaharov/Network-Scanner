@@ -1,0 +1,48 @@
+{
+    "192.168.1.73": {
+        "state": "up",
+        "port_info": {
+            "service_info": [
+                {
+                    "80": {
+                        "state": "closed"
+                    }
+                },
+                {
+                    "443": {
+                        "state": "closed"
+                    }
+                }
+            ],
+            "open_ports": []
+        }
+    },
+    "192.168.1.254": {
+        "state": "up",
+        "port_info": {
+            "service_info": [
+                {
+                    "80": {
+                        "state": "open",
+                        "service": {
+                            "name": "rtsp",
+                            "servicefp": "SF-Port80-TCP:V=7.91%I=7%D=4/25%Time=6084A8CC%P=x86_64-apple-darwin20.1.0%r(GetRequest,1B0,\"HTTP/1\\.0\\x20401\\x20Unauthorized\\r\\nServer:\\x20\\r\\nDate:\\x20Sun,\\x2025\\x20Apr\\x202021\\x2002:25:01\\x20GMT\\r\\nCache-Control:\\x20no-cache,no-store\\r\\nPrama:\\x20no-cache\\r\\nWWW-Authenticate:\\x20Basic\\x20realm=\\\"RV6699\\\"\\r\\nContent-Type:\\x20text/html\\r\\nConnection:\\x20close\\r\\n\\r\\n\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20<HTML>\\n\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20<HEAD><TITLE>401\\x20Unauthorized</TITLE></HEAD>\\n\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20<BODY\\x20BGCOLOR=\\\"#cc9999\\\"\\x20TEXT=\\\"#000000\\\"\\x20LINK=\\\"#2020ff\\\"\\x20VLINK=\\\"#4040cc\\\">\\n\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20<H4>401\\x20Unauthorized</H4>\\nAuthorization\\x20required\\.\\n\")%r(HTTPOptions,199,\"HTTP/1\\.0\\x20501\\x20Not\\x20Implemented\\r\\nServer:\\x20\\r\\nDate:\\x20Sun,\\x2025\\x20Apr\\x202021\\x2002:25:01\\x20GMT\\r\\nCache-Control:\\x20no-cache,no-store\\r\\nPrama:\\x20no-cache\\r\\nContent-Type:\\x20text/html\\r\\nConnection:\\x20close\\r\\n\\r\\n\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20<HTML>\\n\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20<HEAD><TITLE>501\\x20Not\\x20Implemented</TITLE></HEAD>\\n\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20<BODY\\x20BGCOLOR=\\\"#cc9999\\\"\\x20TEXT=\\\"#000000\\\"\\x20LINK=\\\"#2020ff\\\"\\x20VLINK=\\\"#4040cc\\\">\\n\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20<H4>501\\x20Not\\x20Implemented</H4>\\nThat\\x20method\\x20is\\x20not\\x20implemented\\.\\n\")%r(RTSPRequest,199,\"RTSP/1\\.0\\x20501\\x20Not\\x20Implemented\\r\\nServer:\\x20\\r\\nDate:\\x20Sun,\\x2025\\x20Apr\\x202021\\x2002:25:01\\x20GMT\\r\\nCache-Control:\\x20no-cache,no-store\\r\\nPrama:\\x20no-cache\\r\\nContent-Type:\\x20text/html\\r\\nConnection:\\x20close\\r\\n\\r\\n\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20<HTML>\\n\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20<HEAD><TITLE>501\\x20Not\\x20Implemented</TITLE></HEAD>\\n\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20<BODY\\x20BGCOLOR=\\\"#cc9999\\\"\\x20TEXT=\\\"#000000\\\"\\x20LINK=\\\"#2020ff\\\"\\x20VLINK=\\\"#4040cc\\\">\\n\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20\\x20<H4>501\\x20Not\\x20Implemented</H4>\\nThat\\x20method\\x20is\\x20not\\x20implemented\\.\\n\");",
+                            "method": "probed",
+                            "conf": "10"
+                        }
+                    }
+                },
+                {
+                    "443": {
+                        "state": "filtered"
+                    }
+                }
+            ],
+            "open_ports": [
+                "22",
+                "515",
+                "631"
+            ]
+        }
+    }
+}
